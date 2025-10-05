@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE_DIR="klipper_config"
-TARGET_DIR="$HOME/klipper_config"
+TARGET_DIR="$HOME/printer_data/config"
 
 # Create the target directory if it doesn't exist
 mkdir -p "$TARGET_DIR"
