@@ -4,7 +4,7 @@
 
 # Printer mappings
 declare -A PRINTER_MAP=(
-    ["VT"]="VT628"
+    ["VT"]="VT629"
     ["V0"]="V0585"
 )
 
@@ -73,7 +73,7 @@ while [[ $# -gt 0 ]]; do
             echo "  -h, --help               Show this help message"
             echo ""
             echo "Examples:"
-            echo "  $0 --printer vt          Setup VT628"
+            echo "  $0 --printer vt          Setup VT629"
             echo "  $0 --printer v0          Setup V0585"
             echo "  $0                       Interactive mode"
             echo ""
@@ -110,7 +110,7 @@ else
     echo "========================================="
     echo
     echo "Select printer:"
-    echo "  1) VT (VT628)"
+    echo "  1) VT (VT629)"
     echo "  2) V0 (V0585)"
     echo
     read -p "Enter your choice (1 or 2): " choice
