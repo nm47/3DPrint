@@ -127,15 +127,6 @@ else
             exit 1
             ;;
     esac
-    
-    echo
-    echo "Selected: $PRINTER_NAME"
-    read -p "Continue with setup? (y/n): " confirm
-    
-    if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
-        echo "Setup cancelled."
-        exit 0
-    fi
 fi
 
 # Setup the symlinks
