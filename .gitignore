@@ -1,2 +1,4 @@
 *.swp
 *.bkp
+# Klipper printer.cfg backups (timestamped format)
+printer-*_*.cfg
