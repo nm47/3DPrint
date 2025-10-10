@@ -1,0 +1,25 @@
+{
+    "deretraction_speed": [
+        "40"
+    ],
+    "from": "User",
+    "inherits": "Voron Trident 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature]\n",
+    "name": "VT629 - 0.4",
+    "print_host": "192.168.50.250",
+    "printable_area": [
+        "0x0",
+        "246x0",
+        "246x256",
+        "0x256"
+    ],
+    "printer_settings_id": "VT629 - 0.4",
+    "retraction_length": [
+        "0.4"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "version": "2.1.1.0"
+}

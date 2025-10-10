@@ -1,0 +1,23 @@
+{
+    "bottom_shell_layers": "4",
+    "brim_type": "no_brim",
+    "elefant_foot_compensation": "0.1",
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "inner_wall_speed": "160",
+    "is_custom_defined": "0",
+    "min_skirt_length": "30",
+    "name": "0.2mm Layers",
+    "outer_wall_speed": "100",
+    "print_settings_id": "0.2mm Layers",
+    "seam_gap": "14%",
+    "seam_position": "back",
+    "skirt_distance": "5",
+    "sparse_infill_density": "40%",
+    "sparse_infill_pattern": "triangles",
+    "top_surface_speed": "60",
+    "version": "2.1.1.0",
+    "wall_generator": "classic",
+    "wall_loops": "4",
+    "wall_sequence": "inner-outer-inner wall"
+}
