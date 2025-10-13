@@ -2,6 +2,7 @@
     "from": "User",
     "inherits": "Voron 0.1 0.4 nozzle",
     "is_custom_defined": "0",
+    "machine_start_gcode": "PRINT_WARMUP EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] CHAMBER_TEMP=[chamber_temperature]\nPRINT_START EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] CHAMBER_TEMP=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
     "name": "V0.585 - 0.4",
     "print_host": "192.168.50.251",
     "printer_settings_id": "V0.585 - 0.4",
